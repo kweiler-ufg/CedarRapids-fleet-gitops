@@ -112,3 +112,9 @@ labels:
     description: Hosts belonging to the C-Suite
     label_membership_type: manual
     hosts:
+controls:
+  apple_settings:
+    configuration_profiles:
+      -path: ../platforms/ios/configuration_profiles/passcode-settings.json
+      labels_exclude_any:
+        - C-Suite
