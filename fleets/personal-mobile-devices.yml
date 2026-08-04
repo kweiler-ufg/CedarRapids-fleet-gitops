@@ -49,7 +49,9 @@ controls:
   android_settings:
     configuration_profiles:
     certificates:
-
+  ipados_updates:
+    deadline: "2026-07-30"
+    minimum_version "26.2"
   ###########################################################
   # Managed OS updates
   #
@@ -118,6 +120,3 @@ controls:
       -path: ../platforms/ios/configuration_profiles/passcode-settings.json
       labels_exclude_any:
         - C-Suite
-  ipados_updates:
-      deadline: "2026-07-30"
-      minimum_version "26.2"
