@@ -21,7 +21,12 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: UFG
+    org_name: UnitedFireGroup
+
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/b6b2596d-d47b-4f79-a4a6-118ee6c75370
 
   server_settings:
     ###########################################################
